@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a:link {
+            color: red;
+        }
+
+        a:link:hover {
+            color: aqua;
+        }
+
+        a:link:active {
+            color: white;
+        }
+
+        .a {
+            list-style-type: circle;
+        }
+
+        .b {
+            list-style-type: disc
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        #customers th {
+            background-color: yellow;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: grey;
+        }
+
+        #customers tr:hover {
+            background-color: orange;
+            color:white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.google.com.tr/?hl=tr">Google</a>
+
+    <ol class="a">
+        <li>Beyaz</li>
+        <li>Kırmızı</li>
+        <li>Siyah</li>
+    </ol>
+
+    <ul class="b">
+        <li>Beyaz</li>
+        <li>Kırmızı</li>
+        <li>Siyah</li>
+    </ul>
+
+    <table customers id="customers">
+        <tr>
+            <th>Sıvılar</th>
+            <th>Katılar</th>
+            <th>Gazlar</th>
+        </tr>
+        <tr>
+            <td>Deniz</td>
+            <td>Taş</td>
+            <td>Hava</td>
+        </tr>
+        <tr>
+            <td>Süt</td>
+            <td>Demir</td>
+            <td>Doğal Gaz</td>
+        </tr>
+        <tr>
+            <td>Benzin</td>
+            <td>Altın</td>
+            <td>Su buharı</td>
+        </tr>
+</body>
+
+</html>
